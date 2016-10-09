@@ -1,0 +1,24 @@
+{
+	"name": "verbi/yii2-extended-rest-controller",
+	"description": "Yii2 Social login Extension.",
+	"keywords": ["yii2", "extension", "rest", "controller"],
+	"type": "yii2-extension",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Philip Verbist",
+			"email": "philip.verbist@gmail.com"
+		}
+	],
+	"support": {
+		"source": "http://github.com/verbi/yii2-extended-rest-controller"
+	},
+	"autoload": {
+		"psr-4": {
+			"verbi\\yii2ExtendedRestController\\": "src/"
+		}
+	},
+        "require": {
+            "verbi/yii2-oauth2-server": "*"
+        }
+}
