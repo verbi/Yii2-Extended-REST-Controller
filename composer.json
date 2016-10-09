@@ -19,6 +19,7 @@
 		}
 	},
         "require": {
-            "verbi/yii2-oauth2-server": "*"
+            "verbi/yii2-oauth2-server": "*",
+            "verbi/yii2-extended-activerecord": "*"
         }
 }
